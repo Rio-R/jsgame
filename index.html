@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            display: grid;
+            justify-content: center;
+        }
+        h3{
+            text-align: center;
+            background-color: black;
+            color: white;
+            margin: 0 100px;
+            width: 285px;
+            padding: 10px;
+        }
+        .container{
+            display: grid;
+            place-items: center;
+            height: 300px;
+            width: 300px;
+            margin: 0 100px;
+            border: 2px solid black;
+        }
+        select {
+            padding: 20px;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+    <title>Validation Check</title>
+</head>
+<body>
+    <h3>Validation Checker</h3>
+    <div class="container">
+        <select name="Validaton Check" id="validation_check">
+            <option value="0">Validation Check</option>
+            <option value="1">Email</option>
+            <option value="2">Password</option>
+            <option value="3">Zip</option>
+            <option value="4">Phone Number</option>
+            
+        </select>
+    </div>
+
+
+
+
+
+    <script src="js/validationcheck.js"></script>
+</body>
+</html>
